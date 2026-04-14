@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>9th homework assignment</title>
+</head>
+
+<body>
+    <!-- exercise 1 -->
+    <section class="max-w-screen-xl mx-auto p-5">
+        <h2 class="text-lg font-bold mb-5">Exercise 1:</h2>
+        <div class="flex flex-col md:flex-row md:justify-between items-center gap-5">
+            <div class="w-full md:w-max">
+                <div class="italic text-md">Daily wage</div>
+                <input type="number" id="dailyWage" value="100000"
+                    class="w-full md:w-max p-1 border-b-1 border-gray-300 text-sm text-slate-600">
+            </div>
+            <div class="w-full md:w-max">
+                <div class="italic text-md">Workdays</div>
+                <input type="number" id="workdays" placeholder="your workdays"
+                    class="w-full md:w-max p-1 border-b-1 border-gray-300 text-sm text-slate-600">
+            </div>
+            <div class="w-full md:w-max">
+                <div class="italic text-md">Total salary</div>
+                <div id="totalSalary" class="font-bold text-red-500"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOTE: phân tích xem ở file README.md -->
+    <script src="./js/exercise_1.js"></script>
+</body>
+
+</html>
