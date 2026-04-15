@@ -55,7 +55,15 @@
 - Render chiều rộng
 
 ---
-## Bài :
+## Bài 5: Tính tổng 2 ký sô
 ### Input:
+- Số có 2 chữ số (*user tự nhập*)
+- Không có validate case digit > 2 và digit <2
 ### Proccess:
+- Số hàng đơn vị = mod(số có 2 chữ số)
+- Số hàng chục = div(số có 2 chữ sô) => làm tròn xuất (Math.floor)
+- **Công thức:** Tổng 2 ký số = Số hàng đơn vị + Số hàng chục
+- Lắng nghe sự kiện thay đổi trong ô input bằng sự kiện `input` (*test cách dùng sự kiện `input`*)
+- Tạo hàm xử lý
 ### Output:
+- Render tổng 2 ký số
