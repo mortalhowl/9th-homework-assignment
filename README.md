@@ -17,6 +17,16 @@
 - Render tổng lương 
 
 ---
+## Bài 2: Tính giá trị trung bình
+### Input:
+- 5 số thực (*user tự nhập*)
+- Không có validation data
+### Proccess:
+- **Công thức:** sum(num_1, num_2, num_3, num_4, num_5) / 5
+- Lắng nghe sự kiện thay đổi trong ô input bằng sự kiện `click` (*test cách dùng sự kiện `click`*)
+### Output:
+- Render trung bình cộng của 5 số
+---
 ## Bài :
 ### Input:
 ### Proccess:
