@@ -26,6 +26,18 @@
 - Lắng nghe sự kiện thay đổi trong ô input bằng sự kiện `click` (*test cách dùng sự kiện `click`*)
 ### Output:
 - Render trung bình cộng của 5 số
+
+---
+## Bài 3: Chuyển đổi đơn vị tiền tệ từ USD sang VNĐ
+### Input:
+- Số tiền Dollars cần quy đổi (value mặc định là 1)
+- Giá tiền Việt hiện nay (value mặc định là 23.500)
+### Proccess:
+- **Công thức:** Số tiền chuyển đổi = Số tiền Dollars cần quy đổi * Giá tiền Việt hiện nay
+- Lắng nghe sự kiện thay đổi trong ô input bằng sự kiện `change` (*test cách dùng sự kiện `change`*)
+- Tạo 1 hàm để xử lý chung vì cả 2 ô input đều có sự kiện này
+### Output:
+- Render số tiền chuyển đổi
 ---
 ## Bài :
 ### Input:
