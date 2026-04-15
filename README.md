@@ -38,6 +38,22 @@
 - Tạo 1 hàm để xử lý chung vì cả 2 ô input đều có sự kiện này
 ### Output:
 - Render số tiền chuyển đổi
+
+---
+## Bài 4: Diện tích, chu vi của hình chữ nhật
+### Input:
+- Chiều dài (*user tự nhập*)
+- Chiều rộng (*user tự nhập*)
+### Proccess:
+- **Công thức:**
+    - Chu vi: (Chiều dài + Chiều rộng) * 2
+    - Diện tích: Chiều dài * Chiều rộng
+- Lắng nghe sự kiện thay đổi trong ô input bằng sự kiện `change`
+- Tạo 2 hàm để xử lý chung vì cả 2 ô input đều có sự kiện này
+### Output:
+- Render chiều dài
+- Render chiều rộng
+
 ---
 ## Bài :
 ### Input:
